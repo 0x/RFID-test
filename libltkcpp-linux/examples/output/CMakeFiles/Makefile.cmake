@@ -10,9 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../docsample1/CMakeLists.txt"
   "../docsample2/CMakeLists.txt"
-  "../docsample3/CMakeLists.txt"
   "../docsample4/CMakeLists.txt"
-  "../docsample5/CMakeLists.txt"
   "../docsample6/CMakeLists.txt"
   "../docsample7/CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
@@ -119,9 +117,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "docsample1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "docsample2/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "docsample3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "docsample4/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "docsample5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "docsample6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "docsample7/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -130,9 +126,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "docsample1/CMakeFiles/docsample1.dir/DependInfo.cmake"
   "docsample2/CMakeFiles/docsample2.dir/DependInfo.cmake"
-  "docsample3/CMakeFiles/docsample3.dir/DependInfo.cmake"
   "docsample4/CMakeFiles/docsample4.dir/DependInfo.cmake"
-  "docsample5/CMakeFiles/docsample5.dir/DependInfo.cmake"
   "docsample6/CMakeFiles/docsample6.dir/DependInfo.cmake"
   "docsample7/CMakeFiles/docsample7.dir/DependInfo.cmake"
   )

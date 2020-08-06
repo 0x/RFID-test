@@ -54,13 +54,13 @@ stdint.h
 
 ../../version.inc
 
-/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/docsample3/docsample3.cpp
+/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/docsample6/docsample6.cpp
 stdio.h
 -
 ltkcpp.h
--
+/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/docsample6/ltkcpp.h
 impinj_ltkcpp.h
-/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/docsample3/impinj_ltkcpp.h
+/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/docsample6/impinj_ltkcpp.h
 time.h
-/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/docsample3/time.h
+/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/docsample6/time.h
 

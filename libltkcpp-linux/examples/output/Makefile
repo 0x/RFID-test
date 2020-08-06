@@ -137,19 +137,6 @@ docsample2/fast:
 .PHONY : docsample2/fast
 
 #=============================================================================
-# Target rules for targets named docsample3
-
-# Build rule for target.
-docsample3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 docsample3
-.PHONY : docsample3
-
-# fast build rule for target.
-docsample3/fast:
-	$(MAKE) -f docsample3/CMakeFiles/docsample3.dir/build.make docsample3/CMakeFiles/docsample3.dir/build
-.PHONY : docsample3/fast
-
-#=============================================================================
 # Target rules for targets named docsample4
 
 # Build rule for target.
@@ -161,19 +148,6 @@ docsample4: cmake_check_build_system
 docsample4/fast:
 	$(MAKE) -f docsample4/CMakeFiles/docsample4.dir/build.make docsample4/CMakeFiles/docsample4.dir/build
 .PHONY : docsample4/fast
-
-#=============================================================================
-# Target rules for targets named docsample5
-
-# Build rule for target.
-docsample5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 docsample5
-.PHONY : docsample5
-
-# fast build rule for target.
-docsample5/fast:
-	$(MAKE) -f docsample5/CMakeFiles/docsample5.dir/build.make docsample5/CMakeFiles/docsample5.dir/build
-.PHONY : docsample5/fast
 
 #=============================================================================
 # Target rules for targets named docsample6
@@ -211,9 +185,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... docsample1"
 	@echo "... docsample2"
-	@echo "... docsample3"
 	@echo "... docsample4"
-	@echo "... docsample5"
 	@echo "... docsample6"
 	@echo "... docsample7"
 .PHONY : help

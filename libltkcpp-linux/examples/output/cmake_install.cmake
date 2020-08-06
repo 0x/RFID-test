@@ -41,9 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/output/docsample1/cmake_install.cmake")
   include("/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/output/docsample2/cmake_install.cmake")
-  include("/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/output/docsample3/cmake_install.cmake")
   include("/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/output/docsample4/cmake_install.cmake")
-  include("/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/output/docsample5/cmake_install.cmake")
   include("/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/output/docsample6/cmake_install.cmake")
   include("/home/vitaly/catkin_ws/LTK_CPP_Linux_10_36_0_1/libltkcpp-linux/examples/output/docsample7/cmake_install.cmake")
 

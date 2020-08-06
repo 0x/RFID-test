@@ -1013,13 +1013,14 @@ CMyApplication::setImpinjReaderConfig(void)
     
     /* set the mode to auto-set max throughput */
     CC1G2RFControl *pC1G2Rf = new CC1G2RFControl();
+    // pC1G2Rf->setModeIndex(1002);
     pC1G2Rf->setModeIndex(1002);
     pC1G2Rf->setTari(0);        /* tari is ignored by the reader */
     pC1G2Inv->setC1G2RFControl(pC1G2Rf);
 
     CC1G2SingulationControl *pC1G2Sing = new CC1G2SingulationControl();    
     pC1G2Sing->setSession(2);
-    pC1G2Sing->setTagPopulation(1);
+    pC1G2Sing->setTagPopulation(32);
     pC1G2Sing->setTagTransitTime(0);
     pC1G2Inv->setC1G2SingulationControl(pC1G2Sing);
 
@@ -1217,11 +1218,11 @@ CMyApplication::addROSpec (void)
     pInventoryParameterSpec->setProtocolID(AirProtocols_EPCGlobalClass1Gen2);
 
     /* 
-    ** configure to use two antennas to be compatible with
+    ** configure to use all antennas to be compatible with
     ** our tag direction settings
     */
     llrp_u16v_t                 AntennaIDs = llrp_u16v_t(1);
-    AntennaIDs.m_pValue[0] = 2;
+    AntennaIDs.m_pValue[0] = 0;
 
     CAISpec *                   pAISpec = new CAISpec();
     pAISpec->setAntennaIDs(AntennaIDs);
@@ -1589,6 +1590,7 @@ CMyApplication::awaitAndPrintReport (int timeout)
      * Keep receiving messages until done or until
      * something bad happens.
      */
+    printf("DEBUG: awaitAndPrintReport\n");
     while(!bDone)
     {
         CMessage *              pMessage;
@@ -1610,6 +1612,7 @@ CMyApplication::awaitAndPrintReport (int timeout)
 
         if(NULL == pMessage)
         {
+            printf("DEBUG: NULL == pMessage\n");
             continue;
         }
 
@@ -2071,7 +2074,7 @@ CMyApplication::printOneTagReportData (
 
     if(getOneTimestamp(pTagReportData->getFirstSeenTimestampUTC(), &time))
     {
-    written = snprintf(ptr, len, " tm=%010u", time);
+    written = snprintf(ptr, len, " tm=%010llu", time);
     ptr += written;
     len -= written;
     }
