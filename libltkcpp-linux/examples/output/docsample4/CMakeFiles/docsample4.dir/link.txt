@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wno-write-strings   CMakeFiles/docsample4.dir/docsample4.cpp.o  -o docsample4 ../../../libltkcpp_x86_64.a ../../../libltkcppimpinj_x86_64.a -lssl -lcrypto -lxml2 
